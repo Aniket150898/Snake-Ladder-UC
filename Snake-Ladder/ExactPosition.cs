@@ -9,8 +9,8 @@ namespace Snake_Ladder
     public class Program
     {
         public int PlayerPosition = 0;
-        const int NoPlay = 0, Ladder = 1, Snake = 2;
-        public void WinPosition()
+        const int NoPlay = 0, Ladder = 1, Snake = 2, Winning = 100;
+        public void ExactPosition()
         {
             while (PlayerPosition < 100)
             {

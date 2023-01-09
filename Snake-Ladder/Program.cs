@@ -8,7 +8,8 @@
             //program.SnakeAndLadder();
             //program.DiceRolls();
             //program.OptionCheck();
-            program.WinPosition();
+            //program.WinPosition();
+            program.ExactPosition();
         }
     }
 }
