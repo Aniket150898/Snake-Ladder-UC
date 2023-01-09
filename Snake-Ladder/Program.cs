@@ -6,7 +6,8 @@
         {
             Program program = new Program();
             //program.SnakeAndLadder();
-            program.DiceRolls();
+            //program.DiceRolls();
+            program.OptionCheck();
         }
     }
 }
