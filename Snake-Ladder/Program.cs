@@ -7,7 +7,8 @@
             Program program = new Program();
             //program.SnakeAndLadder();
             //program.DiceRolls();
-            program.OptionCheck();
+            //program.OptionCheck();
+            program.WinPosition();
         }
     }
 }
