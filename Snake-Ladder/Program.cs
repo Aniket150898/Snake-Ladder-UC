@@ -9,7 +9,8 @@
             //program.DiceRolls();
             //program.OptionCheck();
             //program.WinPosition();
-            program.ExactPosition();
+            //program.ExactPosition();
+            program.DiceCount();
         }
     }
 }

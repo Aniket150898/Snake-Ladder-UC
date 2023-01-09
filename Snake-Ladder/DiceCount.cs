@@ -9,10 +9,11 @@ namespace Snake_Ladder
     public class Program
     {
         public int PlayerPosition = 0;
+        public int count = 0;
         const int NoPlay = 0, Ladder = 1, Snake = 2, Winning = 100;
-        public void ExactPosition()
+        public void DiceCount()
         {
-            while (PlayerPosition < 100)
+            while (this.PlayerPosition < 100)
             {
                 Random diceroll = new Random();
                 int dice = diceroll.Next(1, 7);
@@ -37,16 +38,11 @@ namespace Snake_Ladder
                     default:
                         Console.WriteLine("Enter a valid input.");
                         break;
-
                 }
-                if (PlayerPosition < 0)
-                {
-                    PlayerPosition = 0;
-                }
-
-
+                count++;
             }
+            Console.WriteLine("The no. of times dice played to win : " + " " + count);
+            Console.WriteLine("the position is : " + this.PlayerPosition);
         }
-
     }
 }
